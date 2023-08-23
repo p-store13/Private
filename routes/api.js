@@ -399,7 +399,7 @@ router.get("/download/pinterest", async (req, res, next) => {
 	if (!url)
 		return res.json({
 			status: false,
-			creator: `Zeltoria`,
+			creator: `HxcoderID`,
 			message: "masukan parameter q",
 		});
 	if (listkey.includes(apikey)) {
