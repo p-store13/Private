@@ -1,12 +1,11 @@
-/*
 var __path = process.cwd(),
 	monk = require('monk'),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://hxcoderid.my.id';
+var url = 'https://apikey.hxcoderid.repl.co';
 try {
-if(url == 'https://hxcoderid.my.id') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://apikey.hxcoderid.repl.co') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
